@@ -1,4 +1,4 @@
-# 🧠 Deep Learning Assignment 2 — Legal Clause Similarity (CS-452)
+# Deep Learning Assignment 2 — Legal Clause Similarity (CS-452)
 
 **Author:** Ayaan Khan | DS-D | 22I-2066  
 **Course:** Deep Learning for Perception  
@@ -7,7 +7,7 @@
 
 ---
 
-## 📘 Overview
+## Overview
 
 This project implements **two baseline deep learning architectures** to identify **semantic similarity between legal clauses**.  
 Legal clauses are written in formal, domain-specific language where the same principle can be expressed in multiple ways.  
@@ -15,7 +15,7 @@ The models aim to detect when two clauses **mean the same thing**, even if worde
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 Dataset used: [Legal Clause Dataset — Kaggle](https://www.kaggle.com/datasets/bahushruth/legalclausedataset)
 
@@ -35,7 +35,7 @@ Balanced dataset (1:1 ratio across all splits).
 
 ---
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 
 - Text cleaning: lowercasing, punctuation removal  
 - Tokenization: whitespace-based  
@@ -45,9 +45,9 @@ Balanced dataset (1:1 ratio across all splits).
 
 ---
 
-## 🏗️ Model Architectures
+## Model Architectures
 
-### 🔹 Model 1 — Siamese BiLSTM
+### Model 1 — Siamese BiLSTM
 - Embedding Dim: 128  
 - Hidden Dim: 128  
 - Layers: 1 (Bidirectional)  
@@ -64,7 +64,7 @@ Encourages meaningful embeddings for semantic similarity.
 
 ---
 
-### 🔹 Model 2 — Self-Attention Encoder
+### Model 2 — Self-Attention Encoder
 - Embedding Dim: 128  
 - Attention Heads: 4  
 - Feedforward Hidden Size: 256  
@@ -77,7 +77,7 @@ Better handles long and complex legal clauses by focusing on key tokens like *te
 
 ---
 
-## 🧮 Training Setup
+## Training Setup
 
 - Framework: **PyTorch**
 - Epochs: **10**
