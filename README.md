@@ -2,7 +2,6 @@
 
 **Author:** Ayaan Khan | DS-D | 22I-2066  
 **Course:** Deep Learning for Perception  
-**Instructor:** *[Add instructor name if required]*  
 **Institute:** FAST NUCES  
 
 ---
